@@ -195,25 +195,6 @@ src/main/java/com/codigo/cowork/
 
 ---
 
-## 📸 Evidencias (capturas en `/docs/`)
-
-| Archivo                        | Contenido                                      |
-|--------------------------------|------------------------------------------------|
-| `01-arranque-puerto-9090.png`  | App arrancando en puerto 9090                  |
-| `02-get-info.png`              | GET /api/info                                  |
-| `03-post-sala.png`             | POST /api/salas → 201 Created                  |
-| `04-get-salas.png`             | GET /api/salas → listado                       |
-| `05-get-sala-id.png`           | GET /api/salas/{id} con descripcionCorta       |
-| `06-put-sala.png`              | PUT /api/salas/{id} → actualización            |
-| `07-post-reserva.png`          | POST /api/reservas → 201, estado PENDIENTE     |
-| `08-get-reserva-id.png`        | GET /api/reservas/{id} con formato de fechas   |
-| `09-get-reservas-filtros.png`  | GET /api/reservas?estado=CONFIRMADA            |
-| `10-put-estado.png`            | PUT /api/reservas/{id}/estado                  |
-| `11-delete-reserva.png`        | DELETE /api/reservas/{id} → 204                |
-| `12-comprobante-pdf.png`       | POST /api/reservas/{id}/comprobante (PDF)      |
-| `13-delete-sala-cascada.png`   | DELETE /api/salas/{id} → cascada reservas      |
-
----
 
 ## ⚙️ Dependencias Maven
 
